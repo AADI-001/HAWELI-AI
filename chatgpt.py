@@ -13,7 +13,7 @@ from random import choice
 from datetime import datetime
 import logging
 
-FORMAT = "[LEGEND-MUKESH] %(message)s"
+FORMAT = "[LEGEND-KISAKI] %(message)s"
 logging.basicConfig(
     level=logging.WARNING, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
@@ -156,7 +156,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=START_IMG,
-                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [ᴍᴜᴋᴇsʜ](https://t.me/itz_legend_coder)||",
+                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ || [ᴋɪꜱᴀᴋɪ](https://t.me/TH3_KISAKI)||",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
@@ -228,7 +228,7 @@ async def chat(bot, message):
 s = bytearray.fromhex("68 74 74 70 73 3A 2F 2F 67 69 74 68 75 62 2E 63 6F 6D 2F 4E 6F 6F 62 2D 6D 75 6B 65 73 68 2F 43 68 61 74 67 70 74 2D 62 6F 74").decode()
 
 if SOURCE != s:
-    print("So sad, you have changed source, change it back to ` https://github.com/Noob-mukesh/Chatgpt-bot `  else I won't work")
+    print("So sad, you have changed source, change it back to ` https://T.ME/TH3_KISAKI `  else I won't work")
     sys.exit(1)  
 
 
@@ -243,13 +243,10 @@ if __name__ == "__main__":
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
-    print(f"""JOIN  @MR_SUKKUN
+    print(f"""JOIN  @TH3_KISAKI
 GIVE STAR TO THE REPO 
  {BOT_NAME} ɪs ᴀʟɪᴠᴇ!  
     """)
     idle()
     Mukesh.stop()
     print("Bot stopped. Bye !")
-#-----------CREDITS -----------
-# telegram : @itz_legend_coder
-# github : noob-mukesh
