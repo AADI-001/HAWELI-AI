@@ -52,7 +52,7 @@ x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/{DEVELOPER}"),
+        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/TH3_KISAKI"),
         InlineKeyboardButton(text=" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
